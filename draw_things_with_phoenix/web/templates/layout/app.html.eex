@@ -9,8 +9,6 @@
 
     <title>Hello DrawThingsWithPhoenix!</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/drawingboard.min.css") %>">
-
   </head>
 
   <body>
@@ -32,8 +30,7 @@
       </main>
 
     </div> <!-- /container -->
-    <script src="<%= static_path(@conn, "/js/jquery.min.js") %>"></script>
-    <script src="<%= static_path(@conn, "/js/drawingboard.min.js") %>"></script>
+    <!-- <script src="<%= static_path(@conn, "/js/jquery.min.js") %>"></script> -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
