@@ -19,3 +19,6 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 import socket from "./socket"
+
+const board = new DrawingBoard.Board("board")
+// const game = new Phaser.Game(700, 450, "phaser")
